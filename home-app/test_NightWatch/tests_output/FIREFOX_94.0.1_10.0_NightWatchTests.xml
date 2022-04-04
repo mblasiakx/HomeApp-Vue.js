@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="6">
+
+  <testsuite name="NightWatchTests"
+    errors="1" failures="0" hostname="" id="" package="NightWatchTests" skipped="0"
+    tests="6" time="28.82" timestamp="">
+  
+    <testcase name="Log in and go to product panel" classname="NightWatchTests" time="5.317" assertions="0">
+    </testcase>
+  
+    <testcase name="Add items to Product panel" classname="NightWatchTests" time="3.833" assertions="0">
+    </testcase>
+  
+    <testcase name="Delete items from Product panel" classname="NightWatchTests" time="8.720" assertions="0">
+    <error message="An error occurred while running .click() command on &lt;:nth-child(3) &gt; .one-element &gt; button&gt;: " type="error"><![CDATA[
+    Error
+    at Object.Delete items from Product panel (C:\Users\micha\OneDrive\Pulpit\vue\Vue Home App\home-application-for-flatmates\home-app\test_NightWatch\tests\NightWatchTests.js:43:10)
+    ]]></error>
+    
+    </testcase>
+  
+    <testcase name="Go to Split panel and add some bills" classname="NightWatchTests" time="5.039" assertions="0">
+    </testcase>
+  
+    <testcase name="Go to Cleaning panel and add some duties" classname="NightWatchTests" time="5.654" assertions="0">
+    </testcase>
+  
+    <testcase name="Log out" classname="NightWatchTests" time="0.2520" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .click() command on &lt;:nth-child(3) &gt; .one-element &gt; button&gt;: 
+   {&#34;value&#34;:[]}
+       at Object.Delete items from Product panel (C:\Users\micha\OneDrive\Pulpit\vue\Vue Home App\home-application-for-flatmates\home-app\test_NightWatch\tests\NightWatchTests.js:43:10)
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
