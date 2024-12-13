@@ -1,0 +1,51 @@
+{
+  "name": "home-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.23.0",
+    "core-js": "^3.6.5",
+    "vue": "^3.0.11",
+    "vue-modaltor": "^1.5.4",
+    "vue-responsive-video-background-player": "^2.2.0",
+    "vue-router": "^4.0.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "cypress": "^9.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.18.0",
+    "node-sass": "^6.0.1",
+    "node-scss": "^7.0.3",
+    "sass-loader": "^12.1.0",
+    "scss-loader": "0.0.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
