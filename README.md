@@ -7,4 +7,4 @@ A simple web application built with **Vue.js** to help roommates manage and spli
 - **Vue.js** – frontend framework
 - **HTML / CSS** – structure and styling
 - **MongoDB** – database
-- - **Cypress** – E2E Tests
+- **Cypress** – E2E Tests
